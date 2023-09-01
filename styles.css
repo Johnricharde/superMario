@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+}
+
+.container {
+    margin: 50px auto;
+    width: 700px;
+}
+
+#characterSelect {
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+img {
+    height: 200px;
+}
+
+.mushroom {
+    height: 50px;
+    width: 50px;
+}
+
+button {
+    border: none;
+    width: 75px;;
+    padding: 5px;
+    background-color: aqua;
+    font-weight: 800;
+    font-size: 15px;
+    color: white;
+    text-shadow: black 0 0 3px;
+    border-radius: 20px;
+}
