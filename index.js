@@ -19,19 +19,19 @@ let html = /*HTML*/ `
         <div id="characterSelect">
             <div>
                 <img src="img/mario.png"><br>
-                <button onclick="chooseCharacter('Mario')">Mario</button>
+                <button onclick="chooseCharacter('mario')">Mario</button>
             </div>
             <div>
                 <img src="img/luigi.png"><br>
-                <button onclick="chooseCharacter('Luigi')">Luigi</button>
+                <button onclick="chooseCharacter('luigi')">Luigi</button>
             </div>
             <div>
                 <img src="img/peach.png"><br>
-                <button onclick="chooseCharacter('Peach')">Peach</button>
+                <button onclick="chooseCharacter('peach')">Peach</button>
             </div>
             <div>
                 <img src="img/yoshi.png"><br>
-                <button onclick="chooseCharacter('Yoshi')">Yoshi</button>
+                <button onclick="chooseCharacter('yoshi')">Yoshi</button>
             </div>
         </div>
     </div>
