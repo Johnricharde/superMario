@@ -68,13 +68,13 @@ function chooseCharacter(character) {
     playerCharacter = character;
 
     // Calculates playerHP based on choosen character
-    if (character === "Mario") {
+    if (character === "mario") {
         playerHP = 200;
-    } else if (character === "Luigi") {
+    } else if (character === "luigi") {
         playerHP = 140;
-    } else if (character === "Peach") {
+    } else if (character === "peach") {
         playerHP = 100;
-    } else if (character === "Yoshi") {
+    } else if (character === "yoshi") {
         playerHP = 80;
     } else {console.log("Error, can't calculate playerHP")}
 
