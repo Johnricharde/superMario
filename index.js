@@ -18,19 +18,19 @@ let html = /*HTML*/ `
     <div class="container">
         <div id="characterSelect">
             <div>
-                <img src="/img/mario.png"><br>
+                <img src="img/mario.png"><br>
                 <button onclick="chooseCharacter('Mario')">Mario</button>
             </div>
             <div>
-                <img src="/img/luigi.png"><br>
+                <img src="img/luigi.png"><br>
                 <button onclick="chooseCharacter('Luigi')">Luigi</button>
             </div>
             <div>
-                <img src="/img/peach.png"><br>
+                <img src="img/peach.png"><br>
                 <button onclick="chooseCharacter('Peach')">Peach</button>
             </div>
             <div>
-                <img src="/img/yoshi.png"><br>
+                <img src="img/yoshi.png"><br>
                 <button onclick="chooseCharacter('Yoshi')">Yoshi</button>
             </div>
         </div>
@@ -44,12 +44,12 @@ function updateViewCombat() {
         <div class="container">
             <div id="characterSelect">
                 <div>
-                    <img src="/img/${playerCharacter}.png">
+                    <img src="img/${playerCharacter}.png">
                     <h2>HP: ${playerHP}</h2>
                     <button onclick="playerAttack()">Attack</button>
                 </div>
                 <div>
-                    <img src="/img/bowser.png">
+                    <img src="img/bowser.png">
                     <h2>HP: ${bowserHP}</h2>
                     <button onclick="bowserAttack()">Attack</button>
                 </div>
